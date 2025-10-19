@@ -1,0 +1,23 @@
+{
+  "name": "Flutter Dev Container",
+  "image": "ghcr.io/cirruslabs/flutter:stable",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/bash:1": {},
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.dart-code",
+        "Dart-Code.flutter",
+        "ms-vscode.cpptools",
+        "GitHub.copilot",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [3000, 8080],
+  "postCreateCommand": "flutter doctor && flutter pub get",
+  "remoteUser": "root"
+}
