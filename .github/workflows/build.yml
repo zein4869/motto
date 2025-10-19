@@ -42,7 +42,7 @@ jobs:
 
       # 6️⃣ Build APK release
       - name: Build Flutter APK
-        run: flutter build apk --release
+        run: flutter build apk --debug
 
       # 7️⃣ Upload artifact (tải xuống sau khi build)
       - name: Upload APK artifact
