@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
 							) //textfield
 						), //expanded
             Row(
-              mainAxisAlignment: MainAxisAlignment.End,
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 IconButton(
                   onPressed: (){
